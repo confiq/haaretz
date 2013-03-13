@@ -8,7 +8,7 @@
  *
  * @type {string}
  */
-var QUERY = 'kittens';
+var QUERY = 'puppies';
 
 var kittenGenerator = {
   /**
@@ -24,7 +24,7 @@ var kittenGenerator = {
       'method=flickr.photos.search&' +
       'api_key=90485e931f687a9b9c2a66bf58a3861a&' +
       'text=' + encodeURIComponent(QUERY) + '&' +
-      'safe_search=1&' +
+      'safe_search=0&' +
       'content_type=1&' +
       'sort=interestingness-desc&' +
       'per_page=20',
