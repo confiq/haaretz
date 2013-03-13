@@ -3,7 +3,7 @@
 
     "name": "Haaretz testing",
     "description": "This extension demonstrates a browser action with kittens.",
-    "version": "1.0",
+    "version": "0.1",
 
     "permissions": [
         "http://www.haaretz.co.il/"
